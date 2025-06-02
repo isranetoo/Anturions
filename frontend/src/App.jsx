@@ -5,6 +5,7 @@ import Cursos from "./pages/Cursos";
 import Contato from "./pages/Contato";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
+import InfoCards from "./components/InfoCards"; // novo import
 
 export default function App() {
   return (

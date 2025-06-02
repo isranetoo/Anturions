@@ -1,19 +1,17 @@
 import HeroSection from "../components/HeroSection";
+import InfoCards from "../components/InfoCards";
+import NewsletterSeparator from "../components/NewsletterSeparator";
+import ProductList from "../components/ProductList";
+import StrategySection from "../components/StrategySection";
 
 export default function Home() {
   return (
-    <>
+    <div className="bg-gray-900 min-h-screen">
       <HeroSection />
-      <section className="p-12 text-center text-white bg-gray-950 min-h-screen">
-        <h2 className="text-4xl font-bold mb-4">
-          Estratégia, defesa e inteligência cibernética
-        </h2>
-        <p className="text-gray-300 max-w-2xl mx-auto">
-          Bem-vindo à Anturions — sua aliada em segurança digital. Oferecemos
-          pentests, consultorias estratégicas e uma plataforma completa para
-          capacitação de profissionais em cibersegurança.
-        </p>
-      </section>
-    </>
+      <InfoCards />
+      <ProductList />
+      <NewsletterSeparator />
+      <StrategySection />
+    </div>
   );
 }
